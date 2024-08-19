@@ -1,3 +1,7 @@
+dataCAGED
+<img src='man/figures/logo.png' align='centre' height='20%' width='20%'/>
+================
+19 agosto 2024
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
