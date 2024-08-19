@@ -26,8 +26,8 @@ Você pode instalar a versão de desenvolvimento do caged a partir do
 [GitHub](https://github.com/) da seguinte forma:
 
 ``` r
-# install.packages("pak")
-pak::pak("gecomt/caged")
+# install.packages("devtools")
+devtools::install_github("gecomt/caged")
 ```
 
 ## Exemplo
