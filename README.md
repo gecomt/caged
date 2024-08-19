@@ -6,13 +6,14 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-O pacote foi desenvolvido para facilitar o download, leitura e
-manipulação dos dados de movimentação do Cadastro Geral de Empregados e
-Desempregados (CAGED). Embora os dados brutos estam disponíveis através
-do diretório ftp do Ministério do Trabalho, através do [PDET (PROGRAMA
-DE DISSEMINAÇÃO DAS ESTATÍSTICAS DO
-TRABALHO)](ftp://ftp.mtps.gov.br/pdet/microdados/NOVO%%20CAGED/), não
-qualquer o API o que torna o acesso nada intuitivo e prático.
+O pacote foi desenvolvido para simplificar o processo de download,
+leitura e manipulação dos dados de movimentação do Cadastro Geral de
+Empregados e Desempregados (CAGED). Embora os dados brutos estejam
+disponíveis no diretório FTP do Ministério do Trabalho, por meio do
+[PDET (PROGRAMA DE DISSEMINAÇÃO DAS ESTATÍSTICAS DO
+TRABALHO)](ftp://ftp.mtps.gov.br/pdet/microdados/NOVO%%20CAGED/), a
+ausência de uma API oficial torna o acesso a esses dados pouco intuitivo
+e pouco prático.
 
 ## Instalação
 
