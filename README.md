@@ -4,7 +4,7 @@ dataCAGED
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-<img src="man/figures/logo.png" style="width:23.0%"
+<img src="man/figures/logo.png" style="width:21.0%"
 data-fig-align="center" />
 
 <!-- badges: start -->
