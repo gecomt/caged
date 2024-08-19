@@ -1,11 +1,11 @@
 dataCAGED
-<img src='man/figures/logo.png' align='centre' height='20%' width='20%'/>
 ================
 19 agosto 2024
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# dataCAGED
+<img src="man/figures/logo.png" style="width:23.0%"
+data-fig-align="center" />
 
 <!-- badges: start -->
 <!-- badges: end -->
