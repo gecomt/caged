@@ -33,7 +33,7 @@ Você pode instalar a versão de desenvolvimento do caged a partir do
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("gecomt/caged")
+devtools::install_github("gecomt/datacaged")
 ```
 
 ## Exemplo
@@ -44,7 +44,7 @@ e `fim`) e nome do `diretorio` que será criado para armazenar os dados
 do CAGED
 
 ``` r
-library(caged)
+library(datacaged)
 baixar_dados_caged(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged")
 ```
 

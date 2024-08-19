@@ -1,4 +1,4 @@
-Package: dataCAGED
+Package: datacaged
 Title: Ferramentas para Manipulação de Dados do CAGED
 Version: 0.1.0
 Authors@R: c(person(given = "Alexsandro",
