@@ -4,8 +4,10 @@
 #' @param inicio Data de início no formato "yyyy-mm" (padrão "2020-01").
 #' @param fim Data de fim no formato "yyyy-mm" (padrão "2024-06").
 #' @param diretorio Diretório onde os arquivos serão salvos (padrão "dados_caged").
-#' @param baixar_dados_caged Funcao baixa dados CAGED (padrão "baixar_dados_caged").
-#' @param ler_juntar_caged Funcao le e junta dados do CAGED (padrão "ler_juntar_caged").
+#' @import readr
+#' @import dplyr
+#' @import archive
+#' @import utils
 #' @export
 baixar_dados_caged <- function(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged") {
   # Verificar e criar o diretório de destino, se não existir
@@ -38,6 +40,9 @@ baixar_dados_caged <- function(inicio = "2020-01", fim = "2024-06", diretorio = 
 #' Esta função lê e junta arquivos CAGED salvos em um diretório especificado.
 #' @param diretorio Diretório onde os arquivos .7z estão salvos (padrão "dados_caged").
 #' @return Um data frame com todos os dados combinados.
+#' @import readr
+#' @import dplyr
+#' @import archive
 #' @export
 ler_juntar_caged <- function(diretorio = "dados_caged") {
   # Listar todos os arquivos .7z no diretório especificado
