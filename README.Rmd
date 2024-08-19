@@ -13,12 +13,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-# caged
+# dataCAGED
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-O pacote foi desenvolvido para simplificar o processo de download, leitura e manipulação dos dados de movimentação do Cadastro Geral de Empregados e Desempregados (CAGED). Embora os dados brutos estejam disponíveis no diretório FTP do Ministério do Trabalho, por meio do [PDET (PROGRAMA DE DISSEMINAÇÃO DAS ESTATÍSTICAS DO TRABALHO)](ftp://ftp.mtps.gov.br/pdet/microdados/NOVO%%20CAGED/), a ausência de uma API oficial torna o acesso a esses dados pouco intuitivo e pouco prático.
+O pacote foi desenvolvido para simplificar o processo de download, leitura e manipulação dos dados de movimentação do novo Cadastro Geral de Empregados e Desempregados (CAGED). Embora os dados brutos estejam disponíveis no diretório FTP do Ministério do Trabalho, por meio do [PDET (PROGRAMA DE DISSEMINAÇÃO DAS ESTATÍSTICAS DO TRABALHO)](ftp://ftp.mtps.gov.br/pdet/microdados/NOVO%%20CAGED/), a ausência de uma API oficial torna o acesso a esses dados pouco intuitivo e pouco prático.
+
+Desde janeiro de 2020, o uso do Sistema do Cadastro Geral de Empregados e Desempregados (Caged) foi substituído pelo Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas (eSocial) para parte das empresas, conforme estabelecido pela Portaria SEPRT nº 1.127, de 14/10/2019. Permanece a obrigatoriedade de envio das informações por meio do Caged apenas para órgãos públicos e organizações internacionais que contratam celetistas. 
+
+O Novo Caged é a geração das estatísticas do emprego formal por meio de informações captadas dos sistemas eSocial, Caged e Empregador Web. 
 
 ## Instalação
 
