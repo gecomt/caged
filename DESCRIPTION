@@ -5,6 +5,10 @@ Authors@R: c(person(given = "Alexsandro",
                   family = "Prado",
                   role = c("aut", "cre"),
                   email = "alexsandro.prado@ufersa.edu.br"))
+           c(person(given = "GECOMT UFERSA",
+                  family = "(Grupo de Estudos sobre Contabilidade e Mercado de Trabalho - UFERSA",
+                  role = c("aut", "cre"),
+                  email = "gecomt@ufersa.edu.br"))
 Description: O pacote foi desenvolvido para facilitar o download, leitura e manipulação dos dados de movimentação do Cadastro Geral de Empregados e Desempregados (CAGED). Embora os dados brutos estam disponíveis através do diretório ftp do Ministério do Trabalho, através do PDET (PROGRAMA DE DISSEMINAÇÃO DAS ESTATÍSTICAS DO TRABALHO), não qualquer o API o que torna o acesso nada intuitivo e prático.
 Depends: R (>= 3.5.0)
 Imports: 
