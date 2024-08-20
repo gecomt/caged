@@ -3,10 +3,9 @@ dataCAGED
 19 agosto 2024
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-<img src="man/figures/logo.png" style="width:25.0%"
-data-fig-align="center" />
-
+<p align="center">
+<img src="man/figures/logo.png" width="20%">
+</p>
 <!-- badges: start -->
 <!-- badges: end -->
 
