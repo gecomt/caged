@@ -9,7 +9,7 @@
 #' @import archive
 #' @import utils
 #' @export
-baixar_dados_caged <- function(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged") {
+download_caged<- function(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged") {
   # Verificar e criar o diretório de destino, se não existir
   if (!dir.exists(diretorio)) {
     dir.create(diretorio)
@@ -44,7 +44,7 @@ baixar_dados_caged <- function(inicio = "2020-01", fim = "2024-06", diretorio = 
 #' @import dplyr
 #' @import archive
 #' @export
-ler_juntar_caged <- function(diretorio = "dados_caged") {
+read_caged <- function(diretorio = "dados_caged") {
   # Listar todos os arquivos .7z no diretório especificado
   arquivos <- list.files(diretorio, pattern = "\\.7z$", full.names = TRUE)
 

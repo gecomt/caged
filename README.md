@@ -1,6 +1,6 @@
 dataCAGED
 ================
-19 agosto 2024
+20 agosto 2024
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <p align="center">
@@ -42,13 +42,13 @@ devtools::install_github("gecomt/datacaged")
 ## Exemplo
 
 Para baixar os dados de movimentação do CAGED utiliza-se a função
-`baixar_dados_caged` definindo o período desejado (parâmentros `início`
-e `fim`) e nome do `diretorio` que será criado para armazenar os dados
-do CAGED
+`download_caged` definindo o período desejado (parâmentros `início` e
+`fim`) e nome do `diretorio` que será criado para armazenar os dados do
+CAGED
 
 ``` r
 library(datacaged)
-baixar_dados_caged(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged")
+download_caged(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged")
 ```
 
 Logo após, será feita a leitura e união de todos os arquivos de
@@ -57,5 +57,5 @@ onde os arquivos foram armazenados `diretorio` e atribuir um nome de
 objeto a função que no exemplo a seguir foi nomeado como `df`
 
 ``` r
-df = ler_juntar_caged(diretorio = "dados_caged") 
+df = read_caged(diretorio = "dados_caged") 
 ```
