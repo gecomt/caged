@@ -10,12 +10,14 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/logo.png",
-  out.width = "50%"
+  fig.path = "man/figures/README-",
+  out.width = "100%"
 )
 ```
 
-![](man/figures/logo.png){fig-align="center" width="21%"}
+![](man/figures/logo.png){fig-align="center" width="25%"}
+
+
 
 <!-- badges: start -->
 
