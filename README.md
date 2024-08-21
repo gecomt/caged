@@ -1,10 +1,10 @@
 dataCAGED
 ================
-20 agosto 2024
+21 agosto 2024
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <p align="center">
-<img src="man/figures/logo.png" width="20%">
+<img src="man/figures/logo.png" width="40%">
 </p>
 <!-- badges: start -->
 <!-- badges: end -->

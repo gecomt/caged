@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 
 <p align="center">
-  <img src="man/figures/logo.png" width="20%">
+  <img src="man/figures/logo.png" width="40%">
 </p>
 
 <!-- badges: start -->

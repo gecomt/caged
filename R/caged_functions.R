@@ -1,5 +1,8 @@
 #' Baixa CAGED
+#' <descrição
 #'
+#' @encoding UTF-8
+#' @description
 #' Esta função baixa arquivos do CAGED para um diretório especificado.
 #' @param inicio Data de início no formato "yyyy-mm" (padrão "2020-01").
 #' @param fim Data de fim no formato "yyyy-mm" (padrão "2024-06").
@@ -9,7 +12,7 @@
 #' @import archive
 #' @import utils
 #' @export
-download_caged<- function(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged") {
+download_caged <- function(inicio = "2020-01", fim = "2024-06", diretorio = "dados_caged") {
   # Verificar e criar o diretório de destino, se não existir
   if (!dir.exists(diretorio)) {
     dir.create(diretorio)
