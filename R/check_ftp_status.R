@@ -27,8 +27,8 @@ check_ftp_status <- function(ftp_url = "ftp://ftp.mtps.gov.br/pdet/microdados/")
   })
 
   if (status) {
-    print("O FTP MTE PDET online.")
+    print("O FTP do CAGED está online!")
   } else {
-    print("O FTP MTE PDET offline.")
+    print("O FTP do CAGED está offline")
   }
 }

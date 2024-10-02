@@ -1,6 +1,6 @@
 dataCAGED
 ================
-21 agosto 2024
+01 outubro 2024
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <p align="center">
